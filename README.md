@@ -11,8 +11,9 @@ from ctypes import pythonapi
 Ultra-lightweight S3 client. Memory leakage not implemented yet (unlike boto3)
 
 ## Supports:  
--sending existing files  
--sending string as zipped json (data sinks)
+- sending existing files  
+- sending string as zipped json (data sinks)
+- Operates within a session refreshed every four hours; be sure to shut down the client when you’re done.
 
 <details>
   <summary>Usage </summary>
@@ -61,6 +62,8 @@ s3_client.upload_zipped_jsoned_string(
 
 s3_client.shutdown()
 ```
+
+
 </details>
 
 <details>
