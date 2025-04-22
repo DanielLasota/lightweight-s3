@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lightweight-s3',
-    version='0.0.3',
+    version='0.0.4',
     packages=find_packages(),
     include_package_data=True,
     package_data={
@@ -19,6 +19,9 @@ setup(
     description="Lightweight S3 client with backblaze support",
     keywords="s3 backblaze boto3 client",
     url="https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    project_urls={
+        "Source": "https://github.com/daniel-lasota/lightweight-s3"
+    },
     python_requires='>=3.11',
 )
 
