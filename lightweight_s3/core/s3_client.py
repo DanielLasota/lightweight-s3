@@ -8,7 +8,7 @@ import requests
 from pathlib import Path
 import time
 
-from storage_connection_parameters import StorageConnectionParameters
+from .storage_connection_parameters import StorageConnectionParameters
 
 
 class S3Client:
