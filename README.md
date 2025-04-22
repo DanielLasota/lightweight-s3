@@ -7,8 +7,12 @@ from ctypes import pythonapi
         /_/_/\__, /_/ /_/\__/ |__/|__/\___/_/\__, /_/ /_/\__/  /____/____/  
             /____/                          /____/                          
 
-# lightweight-s3 
+# lightweight-s3
 Ultra-lightweight S3 client. Memory leakage not implemented yet (unlike boto3)
+```commandline
+pip install lightweight-s3
+```
+
 
 ## Supports:  
 - sending existing files  
