@@ -1,5 +1,5 @@
-from core.s3_client import S3Client as S3Client
-from core.storage_connection_parameters import StorageConnectionParameters
+from .core.s3_client import S3Client as S3Client
+from .core.storage_connection_parameters import StorageConnectionParameters
 
 __all__ = [
     'S3Client',

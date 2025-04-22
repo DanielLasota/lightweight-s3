@@ -1,12 +1,12 @@
-from core.s3_client import S3Client as S3Client
-from core.storage_connection_parameters import StorageConnectionParameters
+from .core.s3_client import S3Client as S3Client
+from .core.storage_connection_parameters import StorageConnectionParameters
 
 __all__ = [
     'S3Client',
     'StorageConnectionParameters'
 ]
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "Daniel Lasota <grossmann.root@gmail.com>"
 __description__ = "S3 client. Supports Backblaze. Missing memory leak feature (unlike boto3) but work in progress"
 __email__ = "grossmann.root@gmail.com"
